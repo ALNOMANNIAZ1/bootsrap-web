@@ -1,0 +1,198 @@
+*{
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Titillium Web', sans-serif; 
+	border: 0;
+}
+body{
+	background: white;
+}
+.section-padding{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	float: left;
+	width: 100%;
+	
+}
+.carousel-item{
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption{
+	margin-bottom: 300px;
+	z-index: 2;
+}
+.carousel-caption h5{
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-weight: 600;
+}
+.carousel-caption p{
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner::before{
+	content: "";
+	position: absolute;
+    width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.396);
+	z-index: 1;
+}
+.navbar-nav a{
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+}
+.navbar-brand ,.navbar-light{
+	color: black;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+.navbar-brand ,.navbar-light:focus,
+.navbar-brand,.navbar-light:hover{
+	color: rgb(0, 0, 0);
+}
+.navbar-brand,.navbar-light,.navbar-link{
+	color: #000;
+}
+.w-100{
+	height: 100vh;
+}
+.services .card-body i{
+	font-size: 50px;
+}
+.team .card-body i{
+	font-size: 30px;
+}
+.team .card{
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.5);
+}
+.portfolio .card{
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.537);
+}
+.services .card{
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.566);
+}
+/*====================responcive css====================*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.carousel-caption{
+		margin-bottom: 300px;
+	}
+	.carousel-caption h5{
+
+	}
+	.carousel-caption p{
+		width: 100%;
+	}
+	.card{
+		margin-bottom: 30px;
+	}
+	.img-area img{
+		width: 100%;
+	}
+	.margine-b{
+		margin-bottom: 30px;
+	}
+	.footer-a li{
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: rgb(255, 255, 255);
+	}
+}
+
+@media only screen and (min-width: 992px){
+	.footer-a li{
+		padding: 20px 40px;
+	}
+	.carousel-caption{
+		margin-bottom: 340px;
+	}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav{
+		text-align: center;
+	}
+	.carousel-caption{
+		margin-bottom: 250px;
+	}
+	.carousel-caption h5{
+	    font-weight: 600;
+		font-size: 30px;
+	}
+	.carousel-caption p{
+		padding: 10px 15px;
+
+	}
+	.carousel-caption p{
+		width: 100%;
+		line-height: 1.6;
+		font-size: 20px;
+	}
+	.footer-a li{
+		padding: 7px 4px;
+		background-color: blue;
+	}
+}
+.section-header h2{
+	font-weight: 700;
+}
+.card-title{
+	font-weight: 600;
+}
+.card-body p{
+	padding: 30px 20px;
+}
+.mb-3{
+	border: 2px solid skyblue;
+	border-radius: 1px;
+}
+.mb-3:hover{
+	border: 2px solid skyblue;
+}
+.card{
+	margin-bottom: 30px;
+}
+.footer-a{
+	text-align: center;
+	padding: ;
+	margin-left: -40px;
+}
+.footer-a li{
+	display: inline-block;
+	margin-top: 5px;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.208);
+}
+.footer-a a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-weight: 900;
+}
+.mt-3{
+	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.566);
+}
+.mt-3:hover{
+	background-color: transparent !important;
+}
+
+.btn:hover{
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	color: aliceblue !important;
+}
+.btn{
+	text-transform: uppercase;
+	transition: ease-in-out 0.3s !important;
+	font-weight: 600 !important;
+	box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.429);
+
+}
